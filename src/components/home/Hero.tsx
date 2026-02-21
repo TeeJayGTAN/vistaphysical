@@ -5,8 +5,8 @@ export function Hero() {
     return (
         <section className="relative bg-slate-50 overflow-hidden min-h-[90vh] flex items-center">
             {/* Background Decor */}
-            <div className="absolute top-0 right-0 -translate-y-12 translate-x-1/3 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl -z-10 animate-pulse-slow"></div>
-            <div className="absolute bottom-0 left-0 translate-y-1/3 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/40 rounded-full blur-3xl -z-10"></div>
+            <div className="absolute top-0 right-0 -translate-y-12 translate-x-1/3 w-[800px] h-[800px] bg-primary/10 rounded-full blur-3xl -z-10 animate-pulse-slow"></div>
+            <div className="absolute bottom-0 left-0 translate-y-1/3 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/15 rounded-full blur-3xl -z-10"></div>
 
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
@@ -18,7 +18,7 @@ export function Hero() {
                         </div>
 
                         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1]">
-                            For all your body&apos;s <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-teal-400">Aches & Pains</span>
+                            For all your body&apos;s <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-amber-500">Aches & Pains</span>
                         </h1>
 
                         <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-lg">
@@ -64,7 +64,7 @@ export function Hero() {
                                 // src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop"
                                 src="/hero.jpg"
                                 alt="Osteopathy Treatment Session"
-                                className="absolute inset-0 w-full h-full object-cover"
+                                className="absolute inset-0 w-full h-full object-cover object-center"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
 

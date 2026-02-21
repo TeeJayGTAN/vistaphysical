@@ -38,13 +38,7 @@ export function Navbar() {
                 <div className="flex items-center justify-between">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2 group">
-                        {/* <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-white font-bold text-xl transition-transform group-hover:scale-105 group-hover:bg-accent">
-                            V
-                        </div>
-                        <span className="font-bold text-xl tracking-tight text-foreground">
-                            VitaPhysical
-                        </span> */}
-                        <img src="/logo.jpg" alt="Logo" className="w-45" />
+                        <img src="/logo.png" alt="VitaPhysical Logo" className="h-10 lg:h-12 w-auto object-contain transition-transform hover:scale-105" />
                     </Link>
 
                     {/* Desktop Nav */}
